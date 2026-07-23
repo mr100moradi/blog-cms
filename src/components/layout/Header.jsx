@@ -84,7 +84,7 @@ export default function Header({ onMenuClick }) {
             <p className="text-sm text-gray-500 dark:text-gray-300">Simple</p>
             <h1 className="text-lg font-bold tracking-tight text-gray-900 dark:text-white">Blog CMS</h1>
           </div> */}
-          <img src={logo} alt="logo" />
+          <img src={logo} width={150} height={150} alt="logo" />
         </div>
         <div className="flex items-center gap-3">
           <div className="relative hidden sm:block">
